@@ -18,4 +18,4 @@ y_p = linereg.predict(x)
 
 ans = (linereg.coef_)*9.25+(linereg.intercept_)
 
-print(ans)
+print(round(int(ans)))
